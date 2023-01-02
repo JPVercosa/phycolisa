@@ -55,11 +55,11 @@ canvas {
   font-size: 1.2rem;
   font-weight: bold;
   margin: 0px 2px;
+  color: #0096c7
 }
 
 .buttons-container a:hover {
   color: #fff;
-
 }
 
 .language {

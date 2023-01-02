@@ -16,26 +16,28 @@ brElem.addEventListener('click', () => {
     //About
     document.querySelector(".about-text div h1").innerText = "Olá, seja bem vindo!"
     document.querySelector(".about-box p").innerHTML = `
-        Aqui você vai conhecer um pouco mais sobre mim. <br>
+        Aqui você vai conhecer um pouco mais a meu respeito. <br>
         Meu nome é João Pedro, mas para o nome do site a inspiração foram três paixões: <br>
         Physics, Computadores e Lisa. <br>
         Lisa é minha cadela vira-lata! <br>
         Minhas redes: <br> <br> <br>`
+
+    document.querySelector(".social-media :nth-child(3)").href = "docs/curriculo-2023-JPVercosa.pdf"
 
     //Phy
 
     document.querySelector(".phy-text div h1").innerText = "PHY - Física"
     document.querySelector(".phy-box div :nth-child(1)").innerText = "Ao final do meu ensino médio, realizei as provas de vestibular acreditando que me tornaria professor de física."
     document.querySelector(".phy-box div :nth-child(2)").innerText = "Meu interesse pela matéria era enorme e me entristecia ver meus amigos compreenderem apenas o básico devido a falta de didática dos professores."
-    document.querySelector(".phy-box div :nth-child(3)").innerText = "No ensino superior ingressei no curso de Engenharia de Computação, o que me afastou das salas de aula."
-    document.querySelector(".phy-box div :nth-child(4)").innerText = "De qualquer forma, nos 3 primeiros anos de faculdade, tive a oportunidade de lecionar física em um pré vestibular comunitário oferecido pela Pastoral da PUC."
-    document.querySelector(".phy-box div :nth-child(5)").innerText = "Essa experiência voluntária, me mostrou que realmente gosto de ensinar e o quanto a didática de um professor pode influenciar o desejo de aprender dos alunos. As atividades acabaram interrompidas devido a pandemia."
+    document.querySelector(".phy-box div :nth-child(3)").innerText = "No ensino superior, ingressei no curso de Engenharia de Computação, o que me afastou das salas de aula."
+    document.querySelector(".phy-box div :nth-child(4)").innerText = "De qualquer forma, nos três primeiros anos de faculdade, tive a oportunidade de lecionar física em um pré-vestibular comunitário oferecido pela Pastoral da PUC."
+    document.querySelector(".phy-box div :nth-child(5)").innerText = "Essa experiência voluntária me mostrou que realmente gosto de ensinar e o quanto a didática de um professor pode influenciar o desejo de aprender dos alunos. As atividades acabaram interrompidas devido a pandemia."
 
     //Co
     document.querySelector(".co-text div h1").innerText = "CO - Computadores"
-    document.querySelector(".co-box div :nth-child(1)").innerText = "Os computadores sempre fizeram parte do meu dia a dia. Os primeiros programas com que interagi foram o Campo Minado e o Pinball do Windows 98, com a internet fui apresentado aos jogos em Flash dos navegadores, depois me apaixonei por consoles e quando finalmente conheci a programação, minha atenção se voltou para os códigos."
-    document.querySelector(".co-box div :nth-child(2)").innerText = "Em 2017 iniciei o curso de Engenharia de Computação na PUC-Rio, onde tive a oportunidade de me aprofundar em programação e conhecer novas áreas da computação."
-    document.querySelector(".co-box div :nth-child(3)").innerText = "Além de desenvolver projetos nas linguagens C, Java, Python, JavaScript e TypeScript também tive a oportunidade de aprender sobre bancos de dados, redes de computadores, sistemas operacionais, computação gráfica, inteligência artificial e outros tópicos que vão transformar o mundo hoje e amanhã."
+    document.querySelector(".co-box div :nth-child(1)").innerText = "Os computadores sempre fizeram parte do meu dia a dia. Os primeiros programas com que interagi foram o Campo Minado e o Pinball do Windows 98. Com a internet fui apresentado aos jogos em Flash dos navegadores, e depois me apaixonei por consoles. Quando, finalmente, conheci a programação, minha atenção se voltou para os códigos."
+    document.querySelector(".co-box div :nth-child(2)").innerText = "Em 2017, iniciei o curso de Engenharia de Computação na PUC-Rio, no qual tive a oportunidade de me aprofundar em programação e conhecer novas áreas da computação."
+    document.querySelector(".co-box div :nth-child(3)").innerText = "Além de desenvolver projetos nas linguagens C, Java, Python, JavaScript e TypeScript, também tive a oportunidade de aprender sobre bancos de dados, redes de computadores, sistemas operacionais, computação gráfica, inteligência artificial e outros tópicos que transformam o mundo."
 
 
 })
@@ -60,6 +62,8 @@ usElem.addEventListener('click', () => {
         Physics, Computers and Lisa. <br>
         Lisa is my stray dog. <br>
         Social Medias and contacts: <br><br><br>`
+
+    document.querySelector(".social-media :nth-child(3)").href = "docs/curriculo-2023-JPVercosa-en.pdf"
 
     //Phy
 
@@ -98,6 +102,8 @@ esElem.addEventListener('click', () => {
         Física, Computadoras y Lisa. <br>
         Lisa es mi perro chucho. <br>
         Medios sociales y contactos: <br><br><br>`
+
+    document.querySelector(".social-media :nth-child(3)").href = "docs/curriculo-2023-JPVercosa-en.pdf"
 
     //Phy
 
