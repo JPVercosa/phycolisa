@@ -326,6 +326,11 @@ canvas {
     height: 4rem;
   }
 
+  .language:hover ul {
+    right: 0px;
+  }
+
+
   .about-container,
   .phy-container,
   .co-container,
