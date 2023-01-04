@@ -57,7 +57,7 @@ usElem.addEventListener('click', () => {
     //About
     document.querySelector(".about-text div h1").innerText = "Hello, welcome to my site."
     document.querySelector(".about-box p").innerHTML = `
-        I've built this page so you can know me a little bit better. <br>
+        I've built this page so you get to know me a little bit better. <br>
         I'm João Pedro, but the site's name is inspired by three passions: <br>
         Physics, Computers and Lisa. <br>
         Lisa is my stray dog. <br>
@@ -68,16 +68,16 @@ usElem.addEventListener('click', () => {
     //Phy
 
     document.querySelector(".phy-text div h1").innerText = "PHY - Physics"
-    document.querySelector(".phy-box div :nth-child(1)").innerText = "When I finished high school, I was convicted that I would work as physics teacher."
-    document.querySelector(".phy-box div :nth-child(2)").innerText = "I had a lot of interest in learning physics, and was sad to watch most of my friends giving up on learning the concepts because of bad teachers didacticism."
-    document.querySelector(".phy-box div :nth-child(3)").innerText = "But as I joined the university, I started to learn Computer Engineering, and that decision pushed me away from classrooms."
-    document.querySelector(".phy-box div :nth-child(4)").innerText = "Anyway, I managed to volunteer as a physics teacher for three years on a community course offered by the PUC-Rio Church."
-    document.querySelector(".phy-box div :nth-child(5)").innerText = "That experience showed me that I really like to teach, and how much the students can learn from different ways of teaching. Unfortanetly, the activites were suspended due to the pandemic."
+    document.querySelector(".phy-box div :nth-child(1)").innerText = "When I finished high school, I was convinced that I would work as physics teacher."
+    document.querySelector(".phy-box div :nth-child(2)").innerText = "I had a lot of interest in learning physics, and was sad to watch most of my friends giving up on learning the concepts because of bad teacher's didacticism."
+    document.querySelector(".phy-box div :nth-child(3)").innerText = "But as I joined university, I started to learn Computer Engineering, and that decision pushed me away from classrooms."
+    document.querySelector(".phy-box div :nth-child(4)").innerText = "Despite this, I managed to volunteer as a physics teacher for three years on a community course offered by the PUC-Rio Church."
+    document.querySelector(".phy-box div :nth-child(5)").innerText = "That experience showed me that I really like to teach, and how much the students can learn from different ways of teaching. Unfortunately, the activites were suspended due to the pandemic."
 
     //Co
     document.querySelector(".co-text div h1").innerText = "CO - Computers"
-    document.querySelector(".co-box div :nth-child(1)").innerText = "The computers have always been part of my daily life. The first interactions were playimg Mine Sweeper and Pinball on Windows 98. With the emergence of the internet, I started to play flash games and gather knowledge on Youtube videos, when I finally got to know programming. And I've started to code."
-    document.querySelector(".co-box div :nth-child(2)").innerText = "In 2017 I started the Computer Engineering course at PUC-Rio, where I had the opportunity to delve into programming and discover new areas of computer science. I've learned a lot about the field, and I'm still learning."
+    document.querySelector(".co-box div :nth-child(1)").innerText = "Computers have always been part of my daily life. The first interactions were playing Mine Sweeper and Pinball on Windows 98. With the emergence of the internet, I started playing flash games and gathering knowledge on Youtube videos, when I finally got to know programming."
+    document.querySelector(".co-box div :nth-child(2)").innerText = "In 2017 I started Computer Engineering course at PUC-Rio, where I had the opportunity to dive into programming and discover new areas of computer science. I've learned a lot about the field, and I'm still learning."
     document.querySelector(".co-box div :nth-child(3)").innerText = "In addition to developing projects in C, Java, Python,JavaScript and TypeScript, I've also had the opportunity to learn about databases, computer networks, operating systems, computer graphics, artificial intelligence and other topics that will transform the world today and tomorrow."
 })
 
